@@ -12,16 +12,16 @@
     ```
     docker pull mysql
     ```
-- Configure and Run Docker  
+- Configure and Run MySQL in Docker  
     ```
     docker run -p 3307:3306 --name mysqlcontainer -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=furry_friends_db -d mysql
     ```
 ### Open the terminal in IntelliJ and run the following
-- Pull MySQL image from DockerHub  
+- Configure Network project's network  
     ```
     docker network create networkmysql
     ```
-- Pull MySQL image from DockerHub  
+- Connect project and mysql   
     ```
     docker network connect networkmysql mysqlcontainer
     ```
