@@ -1,0 +1,14 @@
+com\entjava\furryfriends\service\DogService.class
+com\entjava\furryfriends\repository\DogRepository.class
+com\entjava\furryfriends\model\Dog.class
+com\entjava\furryfriends\model\PetType.class
+com\entjava\furryfriends\controller\PetController.class
+com\entjava\furryfriends\controller\DogController.class
+com\entjava\furryfriends\FurryfriendsApplication.class
+com\entjava\furryfriends\model\Pet.class
+com\entjava\furryfriends\service\CatService.class
+com\entjava\furryfriends\controller\CatController.class
+com\entjava\furryfriends\service\PetService.class
+com\entjava\furryfriends\repository\PetRepository.class
+com\entjava\furryfriends\model\Cat.class
+com\entjava\furryfriends\repository\CatRepository.class
