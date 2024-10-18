@@ -21,6 +21,7 @@
     ```
     docker network create networkmysql
     ```
+Note: If you see an error like this `Error response from daemon: network with name networkmysql already exists`. This means that there is an existing connection with the container. You can solve this by disconnecting the previous connection `docker network disconnect networkmysql mysqlcontainer` or by nuking the network entirely `docker network prune` 
 - Connect project and mysql   
     ```
     docker network connect networkmysql mysqlcontainer
